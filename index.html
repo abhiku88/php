@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIP FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Welcome to NIMIT Technology IT Solutions Company</h1>
+    <p> Enter your details for enquiry</p>
+    <P class="submitmsg">Thanks for submiting form. We are happy to see comming</P>
+
+
+    <form action = "index.php" method = "post"> 
+       <input type = "name" name = "name" id="name" placeholder = "Enter your name">
+       <input type = "age" name = "age" id="age"  placeholder = "Enter your age">
+       <input type = "gender" name = "gender" id = "gender" placeholder = "Enter your gender">
+       <input type = "email" name = "email" id = "email" placeholder = "Enter your email">
+       <input type = "mobile no" name = "mobile no" id = "mobile no" placeholder = "Enter your mobile no">
+       <input type = "college id" name = "college id" id="college id " placeholder = "Enter your college id">
+       <input type = "address" name = "address" id = "address" placeholder = "Enter your address">
+       <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
+       <div class="submit">
+         <button class="btn">Submit</button>
+          <button class="btn">Reset</button>
+       </div>
+      
+ </form>
+</div>
+</body>
+<script src="index.js"></script>
+//INSERT INTO `enquiry` (`Sl no`, `Name`, `Age`, `Gender`, `Email`, `Mobile no`, `College id`, `Address`, `Other`, `dt`) VALUES ('1', 'testname', '23', 'male', 'this@this.com', '9999999999', '12', '25', 'This is my first ever php message', current_timestamp());
+</html>

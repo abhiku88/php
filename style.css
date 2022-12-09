@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 80%;
+    background-color: #9ccde4;
+    padding: 34px;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+}
+input, textarea{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 7px auto;
+    padding: 7px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+p{
+    font-size: 17px;
+}
+.submit{
+    text-align: center;
+}
+.btn{
+    background: rgb(217, 160, 160);
+    padding: 8px 10px;
+    color: white;
+    border-radius: 8px;
+    border: transparent;
+    font-size: 20px;
+}
+.submitmsg{
+    font-size: 24px;
+    color: green;
+}
